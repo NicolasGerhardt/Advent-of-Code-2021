@@ -26,7 +26,7 @@ class Submarine:
     return self.position * self.depth
 
 mySub = Submarine()
-movementData = get_data("data.txt")
+movementData = get_data("day_02_data.txt")
 
 for move in movementData:
   direction = move.split(" ")[0]

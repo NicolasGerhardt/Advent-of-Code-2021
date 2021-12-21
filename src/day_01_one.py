@@ -7,7 +7,7 @@ def get_data(filename) -> list[str]:
         lines.append(line)
     return lines
 
-data = get_data("data.txt")
+data = get_data("day_01_data.txt")
 prev = None
 count = 0
 for text in data:

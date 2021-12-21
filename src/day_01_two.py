@@ -10,7 +10,7 @@ def get_data(filename) -> list[int]:
 def three_sum(index, data: list[int]) -> int:
   return data[index] + data[index-1] + data[index-2]
 
-data = get_data("data.txt")
+data = get_data("day_01_data.txt")
 prev = None
 count = 0
 

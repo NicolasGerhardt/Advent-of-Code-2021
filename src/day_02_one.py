@@ -24,7 +24,7 @@ class Submarine:
       self.position = tuple(map(lambda i, j: i + j, movement, self.position))
 
 mySub = Submarine()
-movementData = get_data("data.txt")
+movementData = get_data("day_02_data.txt")
 
 for command in movementData:
   mySub.move(get_movement_type(command[0]), int(command[1]))
